@@ -53,6 +53,12 @@ Based on the first bar chart, we can see that there is a higher number of female
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+The first line of the first table tells us that of all the people that remain alive, 56% of them are females and 44% are males. The second line of the first tells us that of all of the people who are dead, 36% are females and 64% are males.
 
 ## Inferential results 
 
