@@ -72,3 +72,5 @@ Looking at the chi squared test, there were about 400 more females than there we
 
 ## Conclusions
 
+We used a categorical-categorical helper file to solve this problem. We observed two barcharts as well as a chi squared test and a fisher test. From the bar charts, we were able to see that more men had died from covid than women. From the chi squared test, we saw that the observed counts had not lined up with the expected counts. It was expected that more women would die than men because there was a larger number of women in this sample, but instead more men had actually died than women. This meant that to answer the question "Is dying independent of sex?" we would have to answer that no, men are more likely to die than women.
+  
